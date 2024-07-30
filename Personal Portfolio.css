@@ -1,0 +1,117 @@
+body{
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: black;
+    color : #ffff;
+    padding: 20px;
+    text-aign: center;
+
+}
+
+header nav a {
+    color: aliceblue;
+    margin: 0 15px;
+    text-decoration: none;
+
+}
+
+header nav a:hover {
+    text-decoration: underline;
+
+}
+
+section{
+    padding: 20px;
+    margin:20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+h2{
+    color:black;
+
+}
+
+ul{
+    list-style:none;
+    padding:0;
+
+}
+
+ul li {
+    background:#e4e4e4;
+    margin:5px 0;
+    border-radius:4px;
+
+}
+
+.project{
+    margin:20px 0;
+
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input,
+form textarea{
+    padding:10px;
+    margin-top:5px;
+    border:1 px solid #ccc;
+    border-radius: 4px;
+}
+
+form button{
+    margin-top:10px;
+    padding  : 10px;
+    background-color: #333;
+    color:#fff;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: #555;
+}
+
+footer{
+    text-align:center;
+    padding:10px;
+    background-color: #333;
+    color: #fff;
+    position:fixed;
+    width:100%;
+    bottom:0;
+
+}
+#social{
+    text-align:center;
+    margin:20px;
+
+}
+
+.social-links a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#333;
+    background-color: #f4f4f4;
+    padding:10px 20px;
+    border: radius 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.social-linksa:hover{
+    background-color:#e4e4e4;
+}
